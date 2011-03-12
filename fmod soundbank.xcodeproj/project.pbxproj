@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F46BA8132BDEE0008FC51A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BA7132BDEE0008FC51A /* UIKit.framework */; };
+		55F46BAA132BDEE0008FC51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BA9132BDEE0008FC51A /* Foundation.framework */; };
+		55F46BAC132BDEE0008FC51A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BAB132BDEE0008FC51A /* CoreGraphics.framework */; };
+		55F46BB2132BDEE0008FC51A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F46BB0132BDEE0008FC51A /* InfoPlist.strings */; };
+		55F46BB5132BDEE0008FC51A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F46BB4132BDEE0008FC51A /* main.m */; };
+		55F46BB8132BDEE0008FC51A /* fmod_soundbankAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F46BB7132BDEE0008FC51A /* fmod_soundbankAppDelegate.m */; };
+		55F46BBB132BDEE0008FC51A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F46BB9132BDEE0008FC51A /* MainWindow.xib */; };
+		55F46BBE132BDEE0008FC51A /* fmod_soundbankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F46BBD132BDEE0008FC51A /* fmod_soundbankViewController.m */; };
+		55F46BC1132BDEE0008FC51A /* fmod_soundbankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F46BBF132BDEE0008FC51A /* fmod_soundbankViewController.xib */; };
+		55F46BC8132BDEE0008FC51A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BA7132BDEE0008FC51A /* UIKit.framework */; };
+		55F46BC9132BDEE0008FC51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BA9132BDEE0008FC51A /* Foundation.framework */; };
+		55F46BCA132BDEE0008FC51A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BAB132BDEE0008FC51A /* CoreGraphics.framework */; };
+		55F46BD2132BDEE0008FC51A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F46BD0132BDEE0008FC51A /* InfoPlist.strings */; };
+		55F46BD5132BDEE0008FC51A /* fmod_soundbankTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 55F46BD4132BDEE0008FC51A /* fmod_soundbankTests.h */; };
+		55F46BD7132BDEE0008FC51A /* fmod_soundbankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F46BD6132BDEE0008FC51A /* fmod_soundbankTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F46BCB132BDEE0008FC51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F46B9A132BDEE0008FC51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F46BA2132BDEE0008FC51A;
+			remoteInfo = "fmod soundbank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55F46BA3132BDEE0008FC51A /* fmod soundbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fmod soundbank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F46BA7132BDEE0008FC51A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55F46BA9132BDEE0008FC51A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55F46BAB132BDEE0008FC51A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55F46BAF132BDEE0008FC51A /* fmod soundbank-Info.plist */ = {isa = PBXFileReference; path = "fmod soundbank-Info.plist"; sourceTree = "<group>"; };
+		55F46BB1132BDEE0008FC51A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55F46BB3132BDEE0008FC51A /* fmod soundbank-Prefix.pch */ = {isa = PBXFileReference; path = "fmod soundbank-Prefix.pch"; sourceTree = "<group>"; };
+		55F46BB4132BDEE0008FC51A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F46BB6132BDEE0008FC51A /* fmod_soundbankAppDelegate.h */ = {isa = PBXFileReference; path = fmod_soundbankAppDelegate.h; sourceTree = "<group>"; };
+		55F46BB7132BDEE0008FC51A /* fmod_soundbankAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmod_soundbankAppDelegate.m; sourceTree = "<group>"; };
+		55F46BBA132BDEE0008FC51A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		55F46BBC132BDEE0008FC51A /* fmod_soundbankViewController.h */ = {isa = PBXFileReference; path = fmod_soundbankViewController.h; sourceTree = "<group>"; };
+		55F46BBD132BDEE0008FC51A /* fmod_soundbankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmod_soundbankViewController.m; sourceTree = "<group>"; };
+		55F46BC0132BDEE0008FC51A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fmod_soundbankViewController.xib; sourceTree = "<group>"; };
+		55F46BC7132BDEE0008FC51A /* fmod soundbankTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fmod soundbankTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F46BCF132BDEE0008FC51A /* fmod soundbankTests-Info.plist */ = {isa = PBXFileReference; path = "fmod soundbankTests-Info.plist"; sourceTree = "<group>"; };
+		55F46BD1132BDEE0008FC51A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55F46BD3132BDEE0008FC51A /* fmod soundbankTests-Prefix.pch */ = {isa = PBXFileReference; path = "fmod soundbankTests-Prefix.pch"; sourceTree = "<group>"; };
+		55F46BD4132BDEE0008FC51A /* fmod_soundbankTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_soundbankTests.h; sourceTree = "<group>"; };
+		55F46BD6132BDEE0008FC51A /* fmod_soundbankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmod_soundbankTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F46BA0132BDEE0008FC51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BA8132BDEE0008FC51A /* UIKit.framework in Frameworks */,
+				55F46BAA132BDEE0008FC51A /* Foundation.framework in Frameworks */,
+				55F46BAC132BDEE0008FC51A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F46BC3132BDEE0008FC51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BC8132BDEE0008FC51A /* UIKit.framework in Frameworks */,
+				55F46BC9132BDEE0008FC51A /* Foundation.framework in Frameworks */,
+				55F46BCA132BDEE0008FC51A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F46B98132BDEE0008FC51A = {
+			isa = PBXGroup;
+			children = (
+				55F46BAD132BDEE0008FC51A /* fmod soundbank */,
+				55F46BCD132BDEE0008FC51A /* fmod soundbankTests */,
+				55F46BA6132BDEE0008FC51A /* Frameworks */,
+				55F46BA4132BDEE0008FC51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F46BA4132BDEE0008FC51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BA3132BDEE0008FC51A /* fmod soundbank.app */,
+				55F46BC7132BDEE0008FC51A /* fmod soundbankTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F46BA6132BDEE0008FC51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BA7132BDEE0008FC51A /* UIKit.framework */,
+				55F46BA9132BDEE0008FC51A /* Foundation.framework */,
+				55F46BAB132BDEE0008FC51A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55F46BAD132BDEE0008FC51A /* fmod soundbank */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BB6132BDEE0008FC51A /* fmod_soundbankAppDelegate.h */,
+				55F46BB7132BDEE0008FC51A /* fmod_soundbankAppDelegate.m */,
+				55F46BB9132BDEE0008FC51A /* MainWindow.xib */,
+				55F46BBC132BDEE0008FC51A /* fmod_soundbankViewController.h */,
+				55F46BBD132BDEE0008FC51A /* fmod_soundbankViewController.m */,
+				55F46BBF132BDEE0008FC51A /* fmod_soundbankViewController.xib */,
+				55F46BAE132BDEE0008FC51A /* Supporting Files */,
+			);
+			path = "fmod soundbank";
+			sourceTree = "<group>";
+		};
+		55F46BAE132BDEE0008FC51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BAF132BDEE0008FC51A /* fmod soundbank-Info.plist */,
+				55F46BB0132BDEE0008FC51A /* InfoPlist.strings */,
+				55F46BB3132BDEE0008FC51A /* fmod soundbank-Prefix.pch */,
+				55F46BB4132BDEE0008FC51A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55F46BCD132BDEE0008FC51A /* fmod soundbankTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BD4132BDEE0008FC51A /* fmod_soundbankTests.h */,
+				55F46BD6132BDEE0008FC51A /* fmod_soundbankTests.m */,
+				55F46BCE132BDEE0008FC51A /* Supporting Files */,
+			);
+			path = "fmod soundbankTests";
+			sourceTree = "<group>";
+		};
+		55F46BCE132BDEE0008FC51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F46BCF132BDEE0008FC51A /* fmod soundbankTests-Info.plist */,
+				55F46BD0132BDEE0008FC51A /* InfoPlist.strings */,
+				55F46BD3132BDEE0008FC51A /* fmod soundbankTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F46BA2132BDEE0008FC51A /* fmod soundbank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F46BDA132BDEE0008FC51A /* Build configuration list for PBXNativeTarget "fmod soundbank" */;
+			buildPhases = (
+				55F46B9F132BDEE0008FC51A /* Sources */,
+				55F46BA0132BDEE0008FC51A /* Frameworks */,
+				55F46BA1132BDEE0008FC51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fmod soundbank";
+			productName = "fmod soundbank";
+			productReference = 55F46BA3132BDEE0008FC51A /* fmod soundbank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F46BC6132BDEE0008FC51A /* fmod soundbankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F46BDD132BDEE0008FC51A /* Build configuration list for PBXNativeTarget "fmod soundbankTests" */;
+			buildPhases = (
+				55F46BC2132BDEE0008FC51A /* Sources */,
+				55F46BC3132BDEE0008FC51A /* Frameworks */,
+				55F46BC4132BDEE0008FC51A /* Resources */,
+				55F46BC5132BDEE0008FC51A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F46BCC132BDEE0008FC51A /* PBXTargetDependency */,
+			);
+			name = "fmod soundbankTests";
+			productName = "fmod soundbankTests";
+			productReference = 55F46BC7132BDEE0008FC51A /* fmod soundbankTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F46B9A132BDEE0008FC51A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55F46B9D132BDEE0008FC51A /* Build configuration list for PBXProject "fmod soundbank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55F46B98132BDEE0008FC51A;
+			productRefGroup = 55F46BA4132BDEE0008FC51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F46BA2132BDEE0008FC51A /* fmod soundbank */,
+				55F46BC6132BDEE0008FC51A /* fmod soundbankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F46BA1132BDEE0008FC51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BB2132BDEE0008FC51A /* InfoPlist.strings in Resources */,
+				55F46BBB132BDEE0008FC51A /* MainWindow.xib in Resources */,
+				55F46BC1132BDEE0008FC51A /* fmod_soundbankViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F46BC4132BDEE0008FC51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BD2132BDEE0008FC51A /* InfoPlist.strings in Resources */,
+				55F46BD5132BDEE0008FC51A /* fmod_soundbankTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55F46BC5132BDEE0008FC51A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F46B9F132BDEE0008FC51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BB5132BDEE0008FC51A /* main.m in Sources */,
+				55F46BB8132BDEE0008FC51A /* fmod_soundbankAppDelegate.m in Sources */,
+				55F46BBE132BDEE0008FC51A /* fmod_soundbankViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F46BC2132BDEE0008FC51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F46BD7132BDEE0008FC51A /* fmod_soundbankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F46BCC132BDEE0008FC51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F46BA2132BDEE0008FC51A /* fmod soundbank */;
+			targetProxy = 55F46BCB132BDEE0008FC51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F46BB0132BDEE0008FC51A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F46BB1132BDEE0008FC51A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55F46BB9132BDEE0008FC51A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F46BBA132BDEE0008FC51A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		55F46BBF132BDEE0008FC51A /* fmod_soundbankViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F46BC0132BDEE0008FC51A /* en */,
+			);
+			name = fmod_soundbankViewController.xib;
+			sourceTree = "<group>";
+		};
+		55F46BD0132BDEE0008FC51A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F46BD1132BDEE0008FC51A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F46BD8132BDEE0008FC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55F46BD9132BDEE0008FC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		55F46BDB132BDEE0008FC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmod soundbank/fmod soundbank-Prefix.pch";
+				INFOPLIST_FILE = "fmod soundbank/fmod soundbank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55F46BDC132BDEE0008FC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmod soundbank/fmod soundbank-Prefix.pch";
+				INFOPLIST_FILE = "fmod soundbank/fmod soundbank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55F46BDE132BDEE0008FC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fmod soundbank.app/fmod soundbank";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmod soundbankTests/fmod soundbankTests-Prefix.pch";
+				INFOPLIST_FILE = "fmod soundbankTests/fmod soundbankTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55F46BDF132BDEE0008FC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fmod soundbank.app/fmod soundbank";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fmod soundbankTests/fmod soundbankTests-Prefix.pch";
+				INFOPLIST_FILE = "fmod soundbankTests/fmod soundbankTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F46B9D132BDEE0008FC51A /* Build configuration list for PBXProject "fmod soundbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F46BD8132BDEE0008FC51A /* Debug */,
+				55F46BD9132BDEE0008FC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F46BDA132BDEE0008FC51A /* Build configuration list for PBXNativeTarget "fmod soundbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F46BDB132BDEE0008FC51A /* Debug */,
+				55F46BDC132BDEE0008FC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55F46BDD132BDEE0008FC51A /* Build configuration list for PBXNativeTarget "fmod soundbankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F46BDE132BDEE0008FC51A /* Debug */,
+				55F46BDF132BDEE0008FC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F46B9A132BDEE0008FC51A /* Project object */;
+}
