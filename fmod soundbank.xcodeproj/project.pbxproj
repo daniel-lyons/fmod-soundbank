@@ -10,6 +10,15 @@
 		556BEB2013314D830079AC60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556BEB1F13314D830079AC60 /* UIKit.framework */; };
 		55B0AEDC132EECC00063FFC1 /* parametersXYViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55B0AEDB132EECC00063FFC1 /* parametersXYViewController.mm */; };
 		55B0AEE6132FFEC00063FFC1 /* SingletonSoundManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55B0AEE5132FFEC00063FFC1 /* SingletonSoundManager.mm */; };
+		55D065C4133BEB1100AD42C1 /* tutorial_bank.fsb in Resources */ = {isa = PBXBuildFile; fileRef = 55D065B2133BEB1100AD42C1 /* tutorial_bank.fsb */; };
+		55D065C5133BEB1100AD42C1 /* streaming_bank.fsb in Resources */ = {isa = PBXBuildFile; fileRef = 55D065B4133BEB1100AD42C1 /* streaming_bank.fsb */; };
+		55D065C6133BEB1100AD42C1 /* examples.fdp in Resources */ = {isa = PBXBuildFile; fileRef = 55D065B6133BEB1100AD42C1 /* examples.fdp */; };
+		55D065C7133BEB1100AD42C1 /* parametersXYView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D065B8133BEB1100AD42C1 /* parametersXYView.xib */; };
+		55D065C8133BEB1100AD42C1 /* examples.fev in Resources */ = {isa = PBXBuildFile; fileRef = 55D065BA133BEB1100AD42C1 /* examples.fev */; };
+		55D065C9133BEB1100AD42C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D065BC133BEB1100AD42C1 /* MainWindow.xib */; };
+		55D065CA133BEB1100AD42C1 /* fmod_soundbankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D065BE133BEB1100AD42C1 /* fmod_soundbankViewController.xib */; };
+		55D065CB133BEB1100AD42C1 /* engaud_applogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D065C0133BEB1100AD42C1 /* engaud_applogo.png */; };
+		55D065CC133BEB1100AD42C1 /* engaud_appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D065C2133BEB1100AD42C1 /* engaud_appicon.png */; };
 		55D1A250132C00EF005B95F5 /* fmod_soundbankAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D1A24E132C00EF005B95F5 /* fmod_soundbankAppDelegate.mm */; };
 		55D1A251132C00EF005B95F5 /* fmod_soundbankViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D1A24F132C00EF005B95F5 /* fmod_soundbankViewController.mm */; };
 		55F46BAA132BDEE0008FC51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F46BA9132BDEE0008FC51A /* Foundation.framework */; };
@@ -26,6 +35,15 @@
 		55B0AEDB132EECC00063FFC1 /* parametersXYViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = parametersXYViewController.mm; sourceTree = "<group>"; };
 		55B0AEE2132FF84D0063FFC1 /* SingletonSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSoundManager.h; sourceTree = "<group>"; };
 		55B0AEE5132FFEC00063FFC1 /* SingletonSoundManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SingletonSoundManager.mm; sourceTree = "<group>"; };
+		55D065B3133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/tutorial_bank.fsb; sourceTree = "<group>"; };
+		55D065B5133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/streaming_bank.fsb; sourceTree = "<group>"; };
+		55D065B7133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/examples.fdp; sourceTree = "<group>"; };
+		55D065B9133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/parametersXYView.xib; sourceTree = "<group>"; };
+		55D065BB133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/examples.fev; sourceTree = "<group>"; };
+		55D065BD133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		55D065BF133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fmod_soundbankViewController.xib; sourceTree = "<group>"; };
+		55D065C1133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/engaud_applogo.png; sourceTree = "<group>"; };
+		55D065C3133BEB1100AD42C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/engaud_appicon.png; sourceTree = "<group>"; };
 		55D1A24E132C00EF005B95F5 /* fmod_soundbankAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = fmod_soundbankAppDelegate.mm; sourceTree = "<group>"; };
 		55D1A24F132C00EF005B95F5 /* fmod_soundbankViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = fmod_soundbankViewController.mm; sourceTree = "<group>"; };
 		55F46BA3132BDEE0008FC51A /* fmod soundbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fmod soundbank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +123,15 @@
 		55F46BAE132BDEE0008FC51A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55D065B2133BEB1100AD42C1 /* tutorial_bank.fsb */,
+				55D065B4133BEB1100AD42C1 /* streaming_bank.fsb */,
+				55D065B6133BEB1100AD42C1 /* examples.fdp */,
+				55D065B8133BEB1100AD42C1 /* parametersXYView.xib */,
+				55D065BA133BEB1100AD42C1 /* examples.fev */,
+				55D065BC133BEB1100AD42C1 /* MainWindow.xib */,
+				55D065BE133BEB1100AD42C1 /* fmod_soundbankViewController.xib */,
+				55D065C0133BEB1100AD42C1 /* engaud_applogo.png */,
+				55D065C2133BEB1100AD42C1 /* engaud_appicon.png */,
 				55F46BB0132BDEE0008FC51A /* InfoPlist.strings */,
 				55F46BAF132BDEE0008FC51A /* fmod soundbank-Info.plist */,
 				55F46BB3132BDEE0008FC51A /* fmod soundbank-Prefix.pch */,
@@ -161,6 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F46BB2132BDEE0008FC51A /* InfoPlist.strings in Resources */,
+				55D065C4133BEB1100AD42C1 /* tutorial_bank.fsb in Resources */,
+				55D065C5133BEB1100AD42C1 /* streaming_bank.fsb in Resources */,
+				55D065C6133BEB1100AD42C1 /* examples.fdp in Resources */,
+				55D065C7133BEB1100AD42C1 /* parametersXYView.xib in Resources */,
+				55D065C8133BEB1100AD42C1 /* examples.fev in Resources */,
+				55D065C9133BEB1100AD42C1 /* MainWindow.xib in Resources */,
+				55D065CA133BEB1100AD42C1 /* fmod_soundbankViewController.xib in Resources */,
+				55D065CB133BEB1100AD42C1 /* engaud_applogo.png in Resources */,
+				55D065CC133BEB1100AD42C1 /* engaud_appicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +218,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		55D065B2133BEB1100AD42C1 /* tutorial_bank.fsb */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065B3133BEB1100AD42C1 /* en */,
+			);
+			name = tutorial_bank.fsb;
+			sourceTree = "<group>";
+		};
+		55D065B4133BEB1100AD42C1 /* streaming_bank.fsb */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065B5133BEB1100AD42C1 /* en */,
+			);
+			name = streaming_bank.fsb;
+			sourceTree = "<group>";
+		};
+		55D065B6133BEB1100AD42C1 /* examples.fdp */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065B7133BEB1100AD42C1 /* en */,
+			);
+			name = examples.fdp;
+			sourceTree = "<group>";
+		};
+		55D065B8133BEB1100AD42C1 /* parametersXYView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065B9133BEB1100AD42C1 /* en */,
+			);
+			name = parametersXYView.xib;
+			sourceTree = "<group>";
+		};
+		55D065BA133BEB1100AD42C1 /* examples.fev */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065BB133BEB1100AD42C1 /* en */,
+			);
+			name = examples.fev;
+			sourceTree = "<group>";
+		};
+		55D065BC133BEB1100AD42C1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065BD133BEB1100AD42C1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		55D065BE133BEB1100AD42C1 /* fmod_soundbankViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065BF133BEB1100AD42C1 /* en */,
+			);
+			name = fmod_soundbankViewController.xib;
+			sourceTree = "<group>";
+		};
+		55D065C0133BEB1100AD42C1 /* engaud_applogo.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065C1133BEB1100AD42C1 /* en */,
+			);
+			name = engaud_applogo.png;
+			sourceTree = "<group>";
+		};
+		55D065C2133BEB1100AD42C1 /* engaud_appicon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D065C3133BEB1100AD42C1 /* en */,
+			);
+			name = engaud_appicon.png;
+			sourceTree = "<group>";
+		};
 		55F46BB0132BDEE0008FC51A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
