@@ -27,7 +27,7 @@
 		55F46BB5132BDEE0008FC51A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F46BB4132BDEE0008FC51A /* main.m */; };
 		55FCD72013302A640070CA34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCD71F13302A640070CA34 /* AudioToolbox.framework */; };
 		55FCD72313302A8A0070CA34 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCD72213302A8A0070CA34 /* CoreAudio.framework */; };
-		80741FAA181E107900F0A22E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80741FA9181E107900F0A22E /* Default-568h@2x.png */; };
+		80741FAC181E139600F0A22E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80741FAB181E139600F0A22E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,7 @@
 		55F46BBC132BDEE0008FC51A /* fmod_soundbankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_soundbankViewController.h; sourceTree = "<group>"; };
 		55FCD71F13302A640070CA34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		55FCD72213302A8A0070CA34 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		80741FA9181E107900F0A22E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80741FAB181E139600F0A22E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		55F46B98132BDEE0008FC51A = {
 			isa = PBXGroup;
 			children = (
-				80741FA9181E107900F0A22E /* Default-568h@2x.png */,
+				80741FAB181E139600F0A22E /* Default-568h@2x.png */,
 				55F46BAD132BDEE0008FC51A /* fmod soundbank */,
 				55F46BA6132BDEE0008FC51A /* Frameworks */,
 				55F46BA4132BDEE0008FC51A /* Products */,
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F46BB2132BDEE0008FC51A /* InfoPlist.strings in Resources */,
-				80741FAA181E107900F0A22E /* Default-568h@2x.png in Resources */,
+				80741FAC181E139600F0A22E /* Default-568h@2x.png in Resources */,
 				55D065C4133BEB1100AD42C1 /* tutorial_bank.fsb in Resources */,
 				55D065C5133BEB1100AD42C1 /* streaming_bank.fsb in Resources */,
 				55D065C6133BEB1100AD42C1 /* examples.fdp in Resources */,
